@@ -1,0 +1,14 @@
+[project]
+name="flog"
+version="0"
+cppversion="c++11"
+debug=true
+cflag="-static "#额外参数 默认为空
+compiler="g++"
+ccache=false # 启用ccache 高速编译
+apps=[
+    #"app0",
+]
+depends=[
+    #"test$0"
+]
