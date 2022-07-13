@@ -24,14 +24,15 @@ private:
     bool file_enable;
     std::ofstream file;
     void fuck_print(std::string mode,std::string f_string);
-    
+    void log_to_file(std::string record);
+
 
     
 public:
     Flogger(bool enable);
     ~Flogger();
     void openfile(std::string file_path);
-    void log_to_file(std::string record);
+    void log_to_file(std::string mode,std::string record);
     void log(std::string f_string); // white
     void debug(std::string f_string) ;// yellow
     void warn(std::string f_string); // puple

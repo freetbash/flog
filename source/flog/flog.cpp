@@ -39,11 +39,16 @@ void Flogger::openfile(std::string file_path){
 void Flogger::log_to_file(std::string record){
     this->_.lock();
     this->file << record << std::endl;
-
     this->_.unlock();
-
-
 }
+void Flogger::log_to_file(std::string mode, std::string record){
+    if(this->enable){
+        if(this->file_enable){
+            this->log_to_file(gettimestring()+mode+record);  
+        }
+    }
+}
+
 
 void Flogger::fuck_print(std::string mode,std::string f_string){
     if(this->enable){
