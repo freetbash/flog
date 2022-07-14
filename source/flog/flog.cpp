@@ -69,6 +69,8 @@ void Flogger::fuck_print(std::string mode,std::string f_string){
             temp=colorstring(mode,RED);
         }else if(mode=="INFO"){
             temp=colorstring(mode, BLOD);
+        }else if(mode=="FATAL"){
+            temp=colorstring(mode, LIGHT_RED);
         }
         std::cout << gettimestring() + temp + f_string<<std::endl;
     }
@@ -93,4 +95,7 @@ void Flogger::error(std::string f_string){
 }
 void Flogger::info(std::string f_string){
     this->fuck_print("INFO",f_string);
+}
+void Flogger::fatal(std::string f_string){
+    this->fuck_print("FATAL",f_string);
 }

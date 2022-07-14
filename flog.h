@@ -8,6 +8,7 @@
 #include <vector>
 #define BLOD  "1m"
 #define RED     "31m"
+#define LIGHT_RED    "1;31m"
 #define GREEN   "32m"
 #define YELLOW  "33m"
 #define BLUE    "34m"
@@ -41,6 +42,7 @@ public:
     void trace(std::string f_string); // blue
     void error(std::string f_string); // red
     void info(std::string f_string); // blod
+    void fatal(std::string f_string);// light red
 
 };
 
