@@ -21,7 +21,6 @@ std::string gettimestring();
 
 class Flogger{
 private:
-    std::vector<std::thread> jobs;
     std::mutex _;
     bool enable;
     bool file_enable;

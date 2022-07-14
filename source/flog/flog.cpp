@@ -27,11 +27,6 @@ Flogger::Flogger(bool enable){
 }
 Flogger::~Flogger(){
     this->file.close();
-    for(std::thread &_:this->jobs){
-        _.join();
-    }
-
-
 }
 void Flogger::openfile(std::string file_path){
     this->file.open(file_path,std::ios::app);
@@ -48,7 +43,8 @@ void Flogger::log_to_file(std::string record){
 void Flogger::log_file(std::string mode, std::string record){
     if(this->enable){
         if(this->file_enable){
-            this->jobs.push_back(std::thread(&Flogger::log_to_file,this,gettimestring()+mode+record));
+           std::thread _(&Flogger::log_to_file,this,gettimestring()+mode+record);
+           _.detach();
         }
     }
 }
@@ -57,7 +53,8 @@ void Flogger::log_file(std::string mode, std::string record){
 void Flogger::fuck_print(std::string mode,std::string f_string){
     if(this->enable){
         if(this->file_enable){
-            this->jobs.push_back(std::thread(&Flogger::log_to_file,this,gettimestring()+mode+f_string));
+            std::thread _(&Flogger::log_to_file,this,gettimestring()+mode+f_string);
+            _.detach();
         }
         std::string temp;
         if(mode=="LOG"){

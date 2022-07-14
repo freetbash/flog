@@ -42,3 +42,11 @@
 |2022-07-14 18:09:48 PM	| TRACE	| /home/bash/Projects/flog/test/t1.cpp:11:main	| ??????
 |2022-07-14 18:10:20 PM	| START	| Start Record log !
 |2022-07-14 18:10:20 PM	| LOG	| /home/bash/Projects/flog/test/t1.cpp:8:main	| ??????
+|2022-07-14 21:52:04 PM	| START	| Start Record log !
+|2022-07-14 21:52:04 PM	| LOG	| /home/bash/Projects/flog/test/t1.cpp:8:main	| ??????
+|2022-07-14 21:52:04 PM	| DEBUG	| /home/bash/Projects/flog/test/t1.cpp:9:main	| ??????
+|2022-07-14 21:52:04 PM	| WARN	| /home/bash/Projects/flog/test/t1.cpp:10:main	| ??????
+|2022-07-14 21:52:04 PM	| TRACE	| /home/bash/Projects/flog/test/t1.cpp:11:main	| ??????
+|2022-07-14 21:52:04 PM	| ERROR	| /home/bash/Projects/flog/test/t1.cpp:12:main	| ??????
+|2022-07-14 21:52:04 PM	| INFO	| /home/bash/Projects/flog/test/t1.cpp:13:main	| ??????
+|2022-07-14 21:52:04 PM	| INFO	| /home/bash/Projects/flog/test/t1.cpp:13:main	| ??????
