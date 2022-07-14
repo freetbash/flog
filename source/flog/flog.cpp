@@ -1,6 +1,7 @@
 #include <flog.h>
 #include <string>
 #include <float.h>
+#include <thread>
 #include <time.h>
 #include <string.h>
 #include <iostream>
@@ -26,6 +27,9 @@ Flogger::Flogger(bool enable){
 }
 Flogger::~Flogger(){
     this->file.close();
+    for(std::thread &_:this->jobs){
+        _.join();
+    }
 
 
 }
@@ -41,10 +45,10 @@ void Flogger::log_to_file(std::string record){
     this->file << record << std::endl;
     this->_.unlock();
 }
-void Flogger::log_to_file(std::string mode, std::string record){
+void Flogger::log_file(std::string mode, std::string record){
     if(this->enable){
         if(this->file_enable){
-            this->log_to_file(gettimestring()+mode+record);  
+            this->jobs.push_back(std::thread(&Flogger::log_to_file,this,gettimestring()+mode+record));
         }
     }
 }
@@ -53,7 +57,7 @@ void Flogger::log_to_file(std::string mode, std::string record){
 void Flogger::fuck_print(std::string mode,std::string f_string){
     if(this->enable){
         if(this->file_enable){
-            this->log_to_file(gettimestring()+mode+f_string);
+            this->jobs.push_back(std::thread(&Flogger::log_to_file,this,gettimestring()+mode+f_string));
         }
         std::string temp;
         if(mode=="LOG"){
