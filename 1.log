@@ -58,3 +58,87 @@
 |2022-07-14 22:42:25 PM	| ERROR	| /home/bash/Projects/flog/test/t1.cpp:12:main	| ??????
 |2022-07-14 22:42:25 PM	| INFO	| /home/bash/Projects/flog/test/t1.cpp:13:main	| ??????
 |2022-07-14 22:42:25 PM	| FATAL	| /home/bash/Projects/flog/test/t1.cpp:14:main	| ????????
+|2022-07-17 02:53:04 AM	| START	| Start Record log !
+|2022-07-17 02:53:04 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-17 02:53:38 AM	| START	| Start Record log !
+|2022-07-17 02:53:38 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-17 03:00:57 AM	| START	| Start Record log !
+|2022-07-17 03:00:57 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-17 03:00:57 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-17 03:00:57 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-17 03:00:57 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-17 03:00:57 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-17 03:00:57 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-17 03:00:57 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-17 03:01:21 AM	| START	| Start Record log !
+|2022-07-17 03:01:21 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-17 03:01:21 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-17 03:01:21 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-17 03:01:21 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-17 03:01:21 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-17 03:01:21 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-17 03:01:21 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-17 03:02:22 AM	| START	| Start Record log !
+|2022-07-17 03:02:22 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-17 03:02:22 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-17 03:02:22 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-17 03:02:22 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-17 03:02:22 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-17 03:02:22 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-17 03:02:22 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 01:57:19 AM	| START	| Start Record log !
+|2022-07-18 01:57:19 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 01:57:19 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-18 01:57:19 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-18 01:57:19 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-18 01:57:19 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-18 01:57:19 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-18 01:57:19 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 02:54:15 AM	| START	| Start Record log !
+|2022-07-18 02:54:15 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 02:54:15 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-18 02:54:15 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-18 02:54:15 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-18 02:54:15 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-18 02:54:15 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-18 02:54:15 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 03:00:31 AM	| START	| Start Record log !
+|2022-07-18 03:02:36 AM	| START	| Start Record log !
+|2022-07-18 03:02:36 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:02:36 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-18 03:02:36 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-18 03:02:36 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-18 03:02:36 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-18 03:02:36 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-18 03:02:36 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 03:05:44 AM	| START	| Start Record log !
+|2022-07-18 03:05:44 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:05:44 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-18 03:05:44 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-18 03:05:44 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-18 03:05:44 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-18 03:05:44 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-18 03:05:44 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 03:07:41 AM	| START	| Start Record log !
+|2022-07-18 03:07:41 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:07:41 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-18 03:07:41 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-18 03:07:41 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-18 03:07:41 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-18 03:07:41 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-18 03:07:41 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 03:12:28 AM	| START	| Start Record log !
+|2022-07-18 03:12:28 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:12:28 AM	| DEBUG	| test/t1.cpp:9:main	| ??????
+|2022-07-18 03:12:28 AM	| WARN	| test/t1.cpp:10:main	| ??????
+|2022-07-18 03:12:28 AM	| TRACE	| test/t1.cpp:11:main	| ??????
+|2022-07-18 03:12:28 AM	| ERROR	| test/t1.cpp:12:main	| ??????
+|2022-07-18 03:12:28 AM	| INFO	| test/t1.cpp:13:main	| ??????
+|2022-07-18 03:12:28 AM	| FATAL	| test/t1.cpp:14:main	| ????????
+|2022-07-18 03:12:51 AM	| START	| Start Record log !
+|2022-07-18 03:12:51 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:13:18 AM	| START	| Start Record log !
+|2022-07-18 03:13:18 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:13:30 AM	| START	| Start Record log !
+|2022-07-18 03:13:30 AM	| LOG	| test/t1.cpp:8:main	| ??????
+|2022-07-18 03:14:17 AM	| START	| Start Record log !

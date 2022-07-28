@@ -34,6 +34,7 @@ private:
 public:
     Flogger(bool enable);
     ~Flogger();
+    void exit();
     void openfile(std::string file_path);
     void log_file(std::string mode,std::string record);
     void log(std::string f_string); // white
@@ -43,7 +44,6 @@ public:
     void error(std::string f_string); // red
     void info(std::string f_string); // blod
     void fatal(std::string f_string);// light red
-
 };
 
 extern Flogger global_flogger;

@@ -1,5 +1,5 @@
 #include <flog.h>
-
+#include <stdio.h>
 int main(){
 
 
@@ -12,4 +12,6 @@ int main(){
     f1.error(F_STRING("??????"));
     f1.info(F_STRING("??????"));
     f1.fatal(F_STRING("????????"));
+    printf("123123123\n");
+    return 0;
 }
